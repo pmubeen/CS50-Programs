@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+    <title>About Me.</title>
+    <link rel="icon" href="icons/favicon.png" type="image/png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/aboutme.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row header d-none d-md-block show-on-scroll" style="padding-bottom: 5px; z-index: 4;">
+            <h1 id="page-title" class="display-3"><a href="aboutme.html" id="page-title">About me.</a></h1>
+        </div>
+        <div class="row header d-md-none show-on-scroll" style="padding-bottom: 5px; z-index: 4;">
+            <h1 id="page-title" class="display-5"><a href="aboutme.html" id="page-title">About me.</a></h1>
+        </div>
+        <div class="row boxit align-items-center show-on-scroll" style="z-index: 2; background-color: rgba(24, 24, 24, 0.151);">
+           <div id="img-profile" class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-4 d-flex justify-content-center">
+               <img id = "profile" src="/profile.png">
+           </div>
+           <div id="info-table" class="col-12 col-sm-12 col-md-5 col-lg-6 col-xl-6">
+                <table class="table-responsive">
+                    <tr>
+                        <th><img id="icons" src="/icons/birthday.png"/></th>
+                        <td>April 12<sup>th</sup> 1999</td>
+                    </tr>
+                    <tr>
+                        <th><img id="icons" src="/icons/education.png"/></th>
+                        <td>Hons Bachelors in Space Engineering,<i> York University</i></td>
+                    </tr>
+                    <tr>
+                        <th><img id="icons" src="/icons/interests.png"/></th>
+                        <td>A.I, Cloud Computing, Robotics, Nano Technology, Remote Sensing</td>
+                    </tr>
+                    <tr>
+                        <th>Socials:</th>
+                        <td><a href="https://www.linkedin.com/in/mubeen-p-847b1a89/" target="_blank"><img id="icons" src="/icons/linkedin.png"></a>
+                            <a href="https://www.facebook.com/profile.php?id=100012159376274" target="_blank"><img id="icons" style="height:50px; width: 50px; margin: -10px;" src="/icons/facebook.png"></a>
+                            <a href="https://www.instagram.com/mubeenpadaniya/" target="_blank"><img id="icons" href="https://www.instagram.com/mubeenpadaniya/" src="/icons/instagram.png" style="height:50px; width: 50px; margin: -5px;"/></a>
+                        </td>
+                    </tr>
+                </table>
+           </div>
+        </div>
+        <div class="row boxit show-on-scroll" style="z-index: 3; background-color: rgb(121, 121, 121);color: rgb(216, 216, 216);">
+            <div id="intro" class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                <h1 class="display-4">Intro</h1>
+                <div id="intro-desc">
+                    <p>My name is Mubeen Padaniya and I am currently studying Bachelors in Space Engineering at Lassonde School of Engineering (as seen in the picture) at York University. I am currently in my third year and as many of my colleague, I hope to contribute to the international aerospace industry.</p>
+                    <p>However I am also deeply interested in the fields of robotics, automation, data science (particularly big data) and geomatics. Since space engineering is a systems engineering field, I get a taste of all the other majors.</p>
+                </div>
+            </div>
+            <!--for screens smaller than lg-->
+            <div id="intro-img" style="height:300px;" class="d-flex d-sm-flex d-md-flex d-lg-none col-12 col-sm-12 col-md-12 justify-content-center">
+                <img src="intro-pic.jpg" style="width:150%; object-fit: cover; margin-bottom:-20%; margin-right: -10%; margin-left: -10%;">
+            </div>
+            <!--for screens larger and equal to than lg-->
+            <div id="intro-img" style="width: 400px; height: 300px;" class="d-none d-lg-flex col-lg-5 col-xl-5 justify-content-center">
+                <img src="intro-pic.jpg" style="width:130%; object-fit: cover; margin-bottom: -40%; margin-right: -20%;">
+            </div>
+        </div>
+        <!--for screens smaller than lg-->
+        <div class="row boxit d-lg-none show-on-scroll" style="background-color: rgb(200, 200, 200); z-index: 2;">
+            <div id="Hobbies" class="col-12 col-sm-12 col-md-12">
+                <h1 class="display-4">Hobbies</h1>
+                <div id="hobbies-desc">
+                    <p>My biggest hobbies are cycling, reading and cooking. I started reading at the early age of 5 and soon become a regular at my local library. I attribute my knowledge, thinking and awareness to this. My favourite non-fiction book is the Grand Design by Stephen Hawking and for fiction, my love goes to the Lord of the Rings series.</p>
+                    <p>I love spend the warmer times of the year outdoors, speeding down the trails on my mountain bike. Its a fast, sustainable and healthy way to travel that is also a great deal of fun.</p>
+                    <p>Lastly, out of necessity I learned to cook. I never thought it as a chore and often would find new recipes to try. It has also taught me paitence, attention to detail and acceptance of failure. My favourite dishes are lasagna, kadai paneer and burritos.</p>
+                </div>
+            </div>
+            <div id="hobbies-img" style="height:400px" class="col-12 col-sm-12 col-md-12 d-flex justify-content-center">
+                <img src="Hobbies.PNG" style="width:130%; object-fit: cover; margin:-50% -10% 0% -10%;">
+            </div>
+        </div>
+        <!--for screens larger and equal to than lg-->
+        <div class="row boxit d-none d-lg-flex show-on-scroll" style="background-color: rgb(200, 200, 200); z-index: 2;">
+            <div id="hobbies-img" style="height:400px;" class="col-lg-5 col-xl-5 d-flex justify-content-center">
+                <img src="Hobbies.PNG" style="object-fit: cover; margin-top: -80%;">
+            </div>
+            <div id="Hobbies" class="col-lg-7 col-xl-7">
+                <h1 class="display-4" style="text-align: right;">Hobbies</h1>
+                <div id="hobbies-desc" style="text-align:right;">
+                    <p>My biggest hobbies are cycling, reading and cooking. I started reading at the early age of 5 and soon become a regular at my local library. I attribute my knowledge, thinking and awareness to this. My favourite non-fiction book is the Grand Design by Stephen Hawking and for fiction, my love goes to the Lord of the Rings series.</p>
+                    <p>I love spend the warmer times of the year outdoors, speeding down the trails on my mountain bike. Its a fast, sustainable and healthy way to travel that is also a great deal of fun.</p>
+                    <p>Lastly, out of necessity I learned to cook. I never thought it as a chore and often would find new recipes to try. It has also taught me paitence, attention to detail and acceptance of failure. My favourite dishes are lasagna, kadai paneer and burritos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row boxit show-on-scroll" style="z-index:1; background-color: rgb(255, 255, 255);color: rgb(78, 78, 78);">
+            <div id="intro" class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                <h1 class="display-4">My Goals</h1>
+                <div id="intro-desc">
+                    <p>I am very imaginative individual and I always try to aim for the higher echelon. One of my most important goals is to eventually work with a space based company, primarily on launch vehicles. I have been intrigued by various propolusion designed and have been really interested in beating Earth's deep gravity well in a sustainable and fast manner. My current studies a part of the process that will get me there.</p>
+                    <p>Another one of my goals is to found a startup. I am always brimming up with novel ideas that i believe will better people's lives. Entreprenuership gives me a chance to have a wider impact on the world and take charge of my own creations. My unique experience studying entrepreneurship in Israel broadened my horizons, emboldened me and bestowed me the key skills and knowledge imperative to make a successful business.</p>
+                    <p></p>
+                </div>
+            </div>
+            <!--for screens smaller than lg-->
+            <div id="intro-img" style="height:300px;" class="d-flex d-sm-flex d-md-flex d-lg-none col-12 col-sm-12 col-md-12 justify-content-center">
+                <img src="/goals.jpg" style="width:150%; object-fit: cover; margin-bottom:-5%; margin-right: -10%; margin-left: -10%;">
+            </div>
+            <!--for screens larger and equal to than lg-->
+            <div id="intro-img" style="width: 400px; height: 350px;" class="d-none d-lg-flex col-lg-5 col-xl-5 justify-content-center">
+                <img src="/goals.jpg" style="width:130%; object-fit: cover; margin-top: -20%; margin-right: -20%;">
+            </div>
+        </div>
+        <div class="row boxit show-on-scroll" style="z-index:0; padding:10px 0px 0px 0px; box-shadow: none; margin-top:-20px;">
+            <div class="footer d-flex col-12 justify-content-center" style="margin:auto; padding-top: 20px;">
+                <img id="logos" src="/icons/paint.png" class="d-inline-flex justify-content-center" style="height:30px; width:30px;">
+                <p>Designed by Me. Icons courtesy of <a href="https://icons8.com/">Icons8.</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="aboutme.js"></script>
+</body>
